@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+    <h1>Welcome to the 24x7 Compostela Fitness Club:Courts reservation Page!!</h1>
+    <img src="img/planification.png" width="400">
+   
+</head>
+<body>
+
+    <fieldset>
+        <legend>Member Demographics</legend>
+    <form action="nothing.php" method="post">
+        <label for="username" >Name:</label>
+        <input type="text" name="username" id="username">
+        <br>
+        <br>
+       <p>Are you a Member?</p>
+       
+       
+        <input type="radio" name="Member" id="Member" value="Member">
+        <label for="Member">Member</label>
+        <input type="radio" name="noMember" id="noMember" value="noMember">
+        <label for="Member">Non-member</label>
+        <br>
+        
+        <br>
+        <label for="username" >Email:</label>
+        <input type="text" name="Email" id="Email">
+    </fieldset>
+    
+         Facility
+        <select name="Facility" id="Facility" value="Facility">
+        <option value="Indoor Fotball">Indoor Fotball</option>
+        <option value="Badminton">Badminton</option>
+        <option value="Squash, Racquetball">Squash, Racquetball </option>
+        <option value="Basquetball">Basquetball</option>
+
+        </select>
+        <br><br>
+        <label for="date">Select a reservation date and time</label>
+        <br><br>    
+        <input type="date" name="date" id="date" value="data">
+        <input type="time" name="time" id="time" value="time">
+<br><br>
+<input type="checkbox" name="" id="">
+<label for="checkbox" >I agre to the club's reservation policy</label>
+<br><br>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
